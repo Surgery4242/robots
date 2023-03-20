@@ -1,0 +1,45 @@
+import rclpy
+from rclpy.node import Node
+from rclpy.qos import qos_profile_sensor_data
+from sensor_msgs.msg import Imu, LaserScan, BatteryState
+import datetime
+
+class SensorSubscriber(Node):
+
+    def __init__(self):
+        super().__init__('sensor_subscriber')
+        self.imu_sub = self.create_subscription(Imu, 'imu', self.imu_callback, qos_profile=qos_profile_sensor_data)
+        self.laser_sub = self.create_subscription(LaserScan, 'scan', self.scan_callback, qos_profile=qos_profile_sensor_data)
+        self.battery_sub = self.create_subscription(BatteryState, 'battery_state', self.battery_callback, qosa)
+        self.timer = self.create_timer(2.0, self.timer_callback) # 1 second timer
+
+    def imu_callback(self, msg):
+        # Print IMU data
+        self.get_logger().info('IMU data: linear_accel_x = {} linear_accel_y = {} linear_accel_z = {}'.format(msg.linear_acceleration.x, msg.linear_acceleration.y, msg.linear_acceleration.z))
+        #print("IMU HERE")
+    def scan_callback(self, msg):
+        # Print Laser Scan data
+        #print("LASER HERE")
+        self.get_logger().info('Laser Scan min data: {}'.format(min(msg.ranges)))
+        self.get_logger().info('Laser Scan max data: {}'.format(max(msg.ranges)))
+        #for i in range(len(msg.ranges)):
+        #    self.get_logger().info('Laser Scan data: {}'.format(msg.ranges[i]))
+
+    def battery_callback(self, msg):
+        # Print Battery State data
+        self.get_logger().info('Battery State data: {} V'.format(msg.voltage))
+        #print("BATTERY HERE")
+    def timer_callback(self):
+        # Print current time
+        self.get_logger().info('Current time: {}'.format(datetime.datetime.now()))
+
+def main(args=None):
+    rclpy.init(args=args)
+    sensor_subscriber = SensorSubscriber()
+    rclpy.spin(sensor_subscriber)
+    sensor_subscriber.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+

@@ -1,0 +1,45 @@
+#!/usr/bin/env python3
+
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import Imu, LaserScan, BatteryState
+import time
+
+class SensorSubscriber(Node):
+
+    def __init__(self):
+        super().__init__('sensor_subscriber')
+        self.imu_sub = self.create_subscription(Imu, '/imu', self.imu_callback, 10)
+        self.laser_sub = self.create_subscription(LaserScan, '/scan', self.laser_callback, 10)
+        self.battery_sub = self.create_subscription(BatteryState, '/battery_state', self.battery_callback, 10)
+        self.timer = self.create_timer(timer_period = 2.0, self.timer_callback) # 1 second timer
+
+    def imu_callback(self, msg):
+        # Print IMU data
+        #self.get_logger().info('IMU data: {} {} {}'.format(msg.linear_acceleration.x, msg.linear_acceleration.y, msg.linear_acceleration.z))
+       
+ pass
+
+    def laser_callback(self, msg):
+        # Print Laser Scan data
+        self.get_logger().info('Laser Scan data: {}'.format(len(msg.ranges)))
+
+    def battery_callback(self, msg):
+        # Print Battery State data
+        #self.get_logger().info('Battery State data: {} V'.format(msg.voltage))
+        pass
+    def timer_callback(self):
+        # Print current time
+        self.get_logger().info('Current time: {}'.format(time.time()))
+       
+
+def main(args=None):
+    rclpy.init(args=args)
+    sensor_subscriber = SensorSubscriber()
+    rclpy.spin(sensor_subscriber)
+    sensor_subscriber.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
+
