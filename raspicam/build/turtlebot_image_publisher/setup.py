@@ -1,0 +1,1 @@
+/home/ubuntu/workspace/src/robots/topics/raspicam/turtlebot_image_publisher/setup.py

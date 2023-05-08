@@ -1,0 +1,27 @@
+[4.488s] Invoking command in '/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher': PYTHONPATH=/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/prefix_override:/home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/build
+[6.190s] running develop
+[7.313s] Invoked command in '/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher' returned '0': PYTHONPATH=/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/prefix_override:/home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/build
+[7.330s] Invoking command in '/home/ubuntu/workspace/src/robots/topics/raspicam/turtlebot_image_publisher': PYTHONPATH=/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/prefix_override:/home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtlebot_image_publisher build --build-base /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/build install --record /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/install.log --install-scripts $base/lib/turtlebot_image_publisher --single-version-externally-managed
+[8.887s] running egg_info
+[8.891s] writing ../build/turtlebot_image_publisher/turtlebot_image_publisher.egg-info/PKG-INFO
+[8.893s] writing dependency_links to ../build/turtlebot_image_publisher/turtlebot_image_publisher.egg-info/dependency_links.txt
+[8.895s] writing entry points to ../build/turtlebot_image_publisher/turtlebot_image_publisher.egg-info/entry_points.txt
+[8.896s] writing requirements to ../build/turtlebot_image_publisher/turtlebot_image_publisher.egg-info/requires.txt
+[8.897s] writing top-level names to ../build/turtlebot_image_publisher/turtlebot_image_publisher.egg-info/top_level.txt
+[9.182s] reading manifest file '../build/turtlebot_image_publisher/turtlebot_image_publisher.egg-info/SOURCES.txt'
+[9.190s] writing manifest file '../build/turtlebot_image_publisher/turtlebot_image_publisher.egg-info/SOURCES.txt'
+[9.191s] running build
+[9.192s] running build_py
+[9.194s] copying turtlebot_image_publisher/image_publisher.py -> /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/build/lib/turtlebot_image_publisher
+[9.197s] running install
+[9.204s] running install_lib
+[9.211s] copying /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/build/lib/turtlebot_image_publisher/image_publisher.py -> /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages/turtlebot_image_publisher
+[9.216s] byte-compiling /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages/turtlebot_image_publisher/image_publisher.py to image_publisher.cpython-38.pyc
+[9.227s] running install_data
+[9.230s] running install_egg_info
+[9.241s] removing '/home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages/turtlebot_image_publisher-0.0.0-py3.8.egg-info' (and everything under it)
+[9.244s] Copying ../build/turtlebot_image_publisher/turtlebot_image_publisher.egg-info to /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages/turtlebot_image_publisher-0.0.0-py3.8.egg-info
+[9.253s] running install_scripts
+[9.373s] Installing turtlebot_image_publisher script to /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/turtlebot_image_publisher
+[9.376s] writing list of installed files to '/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/install.log'
+[9.556s] Invoked command in '/home/ubuntu/workspace/src/robots/topics/raspicam/turtlebot_image_publisher' returned '0': PYTHONPATH=/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/prefix_override:/home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtlebot_image_publisher build --build-base /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/build install --record /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/install.log --install-scripts $base/lib/turtlebot_image_publisher --single-version-externally-managed

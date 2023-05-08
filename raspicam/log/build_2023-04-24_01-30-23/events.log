@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.002102] (turtlebot_image_publisher) JobQueued: {'identifier': 'turtlebot_image_publisher', 'dependencies': OrderedDict()}
+[0.004346] (turtlebot_image_publisher) JobStarted: {'identifier': 'turtlebot_image_publisher'}
+[0.100542] (-) TimerEvent: {}
+[0.201845] (-) TimerEvent: {}
+[0.303325] (-) TimerEvent: {}
+[0.404337] (-) TimerEvent: {}
+[0.505379] (-) TimerEvent: {}
+[0.606388] (-) TimerEvent: {}
+[0.707475] (-) TimerEvent: {}
+[0.808544] (-) TimerEvent: {}
+[0.910335] (-) TimerEvent: {}
+[1.011441] (-) TimerEvent: {}
+[1.112672] (-) TimerEvent: {}
+[1.213800] (-) TimerEvent: {}
+[1.314880] (-) TimerEvent: {}
+[1.415926] (-) TimerEvent: {}
+[1.517004] (-) TimerEvent: {}
+[1.618151] (-) TimerEvent: {}
+[1.719296] (-) TimerEvent: {}
+[1.820496] (-) TimerEvent: {}
+[1.923253] (-) TimerEvent: {}
+[2.025985] (-) TimerEvent: {}
+[2.127118] (-) TimerEvent: {}
+[2.229462] (-) TimerEvent: {}
+[2.330589] (-) TimerEvent: {}
+[2.431796] (-) TimerEvent: {}
+[2.533088] (-) TimerEvent: {}
+[2.634313] (-) TimerEvent: {}
+[2.735485] (-) TimerEvent: {}
+[2.836649] (-) TimerEvent: {}
+[2.937736] (-) TimerEvent: {}
+[3.038866] (-) TimerEvent: {}
+[3.139986] (-) TimerEvent: {}
+[3.241217] (-) TimerEvent: {}
+[3.342277] (-) TimerEvent: {}
+[3.443366] (-) TimerEvent: {}
+[3.544470] (-) TimerEvent: {}
+[3.645571] (-) TimerEvent: {}
+[3.746740] (-) TimerEvent: {}
+[3.847747] (-) TimerEvent: {}
+[3.948799] (-) TimerEvent: {}
+[4.049992] (-) TimerEvent: {}
+[4.151064] (-) TimerEvent: {}
+[4.252131] (-) TimerEvent: {}
+[4.353263] (-) TimerEvent: {}
+[4.454485] (-) TimerEvent: {}
+[4.556132] (-) TimerEvent: {}
+[4.650940] (turtlebot_image_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.198.121 60894 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/workspace/src/robots/topics/raspicam/turtlebot_image_publisher', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '209', 'AMENT_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'PWD': '/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher', 'OPENCR_PORT': '/dev/ttyACM0', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.198.121 60894 192.168.198.114 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/prefix_override:/home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[4.659341] (-) TimerEvent: {}
+[4.760979] (-) TimerEvent: {}
+[4.862250] (-) TimerEvent: {}
+[4.963441] (-) TimerEvent: {}
+[5.065244] (-) TimerEvent: {}
+[5.167309] (-) TimerEvent: {}
+[5.268446] (-) TimerEvent: {}
+[5.369626] (-) TimerEvent: {}
+[5.470775] (-) TimerEvent: {}
+[5.571947] (-) TimerEvent: {}
+[5.673009] (-) TimerEvent: {}
+[5.774077] (-) TimerEvent: {}
+[5.875247] (-) TimerEvent: {}
+[5.976421] (-) TimerEvent: {}
+[6.077539] (-) TimerEvent: {}
+[6.178526] (-) TimerEvent: {}
+[6.279675] (-) TimerEvent: {}
+[6.380752] (-) TimerEvent: {}
+[6.432083] (turtlebot_image_publisher) StdoutLine: {'line': b'running develop\n'}
+[6.481023] (-) TimerEvent: {}
+[6.582317] (-) TimerEvent: {}
+[6.683463] (-) TimerEvent: {}
+[6.784604] (-) TimerEvent: {}
+[6.885735] (-) TimerEvent: {}
+[6.986900] (-) TimerEvent: {}
+[7.087982] (-) TimerEvent: {}
+[7.189030] (-) TimerEvent: {}
+[7.290008] (-) TimerEvent: {}
+[7.391169] (-) TimerEvent: {}
+[7.424990] (turtlebot_image_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[7.426264] (turtlebot_image_publisher) StdoutLine: {'line': b'writing turtlebot_image_publisher.egg-info/PKG-INFO\n'}
+[7.427790] (turtlebot_image_publisher) StdoutLine: {'line': b'writing dependency_links to turtlebot_image_publisher.egg-info/dependency_links.txt\n'}
+[7.429419] (turtlebot_image_publisher) StdoutLine: {'line': b'writing entry points to turtlebot_image_publisher.egg-info/entry_points.txt\n'}
+[7.431189] (turtlebot_image_publisher) StdoutLine: {'line': b'writing requirements to turtlebot_image_publisher.egg-info/requires.txt\n'}
+[7.432682] (turtlebot_image_publisher) StdoutLine: {'line': b'writing top-level names to turtlebot_image_publisher.egg-info/top_level.txt\n'}
+[7.491417] (-) TimerEvent: {}
+[7.592510] (-) TimerEvent: {}
+[7.693676] (-) TimerEvent: {}
+[7.704988] (turtlebot_image_publisher) StdoutLine: {'line': b"reading manifest file 'turtlebot_image_publisher.egg-info/SOURCES.txt'\n"}
+[7.711321] (turtlebot_image_publisher) StdoutLine: {'line': b"writing manifest file 'turtlebot_image_publisher.egg-info/SOURCES.txt'\n"}
+[7.721340] (turtlebot_image_publisher) StdoutLine: {'line': b'running build_ext\n'}
+[7.727491] (turtlebot_image_publisher) StdoutLine: {'line': b'Creating /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages/site.py\n'}
+[7.745303] (turtlebot_image_publisher) StdoutLine: {'line': b'Creating /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages/turtlebot-image-publisher.egg-link (link to .)\n'}
+[7.751061] (turtlebot_image_publisher) StdoutLine: {'line': b'Installing turtlebot_image_publisher script to /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/turtlebot_image_publisher\n'}
+[7.753543] (turtlebot_image_publisher) StdoutLine: {'line': b'\n'}
+[7.754780] (turtlebot_image_publisher) StdoutLine: {'line': b'Installed /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher\n'}
+[7.755675] (turtlebot_image_publisher) StdoutLine: {'line': b'running install_data\n'}
+[7.793976] (-) TimerEvent: {}
+[7.895496] (-) TimerEvent: {}
+[7.961822] (turtlebot_image_publisher) CommandEnded: {'returncode': 0}
+[7.995839] (-) TimerEvent: {}
+[8.097561] (-) TimerEvent: {}
+[8.113689] (turtlebot_image_publisher) JobEnded: {'identifier': 'turtlebot_image_publisher', 'rc': 0}
+[8.118755] (-) EventReactorShutdown: {}

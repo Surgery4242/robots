@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing turtlebot_image_publisher.egg-info/PKG-INFO
+writing dependency_links to turtlebot_image_publisher.egg-info/dependency_links.txt
+writing entry points to turtlebot_image_publisher.egg-info/entry_points.txt
+writing requirements to turtlebot_image_publisher.egg-info/requires.txt
+writing top-level names to turtlebot_image_publisher.egg-info/top_level.txt
+reading manifest file 'turtlebot_image_publisher.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot_image_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages/site.py
+Creating /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages/turtlebot-image-publisher.egg-link (link to .)
+Installing turtlebot_image_publisher script to /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/turtlebot_image_publisher
+
+Installed /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher
+running install_data

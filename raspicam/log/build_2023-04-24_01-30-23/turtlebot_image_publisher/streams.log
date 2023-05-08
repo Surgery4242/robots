@@ -1,0 +1,18 @@
+[4.652s] Invoking command in '/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher': PYTHONPATH=/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/prefix_override:/home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/build --no-deps install_data
+[6.427s] running develop
+[7.420s] running egg_info
+[7.421s] writing turtlebot_image_publisher.egg-info/PKG-INFO
+[7.423s] writing dependency_links to turtlebot_image_publisher.egg-info/dependency_links.txt
+[7.425s] writing entry points to turtlebot_image_publisher.egg-info/entry_points.txt
+[7.427s] writing requirements to turtlebot_image_publisher.egg-info/requires.txt
+[7.428s] writing top-level names to turtlebot_image_publisher.egg-info/top_level.txt
+[7.700s] reading manifest file 'turtlebot_image_publisher.egg-info/SOURCES.txt'
+[7.706s] writing manifest file 'turtlebot_image_publisher.egg-info/SOURCES.txt'
+[7.716s] running build_ext
+[7.723s] Creating /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages/site.py
+[7.740s] Creating /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages/turtlebot-image-publisher.egg-link (link to .)
+[7.746s] Installing turtlebot_image_publisher script to /home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/turtlebot_image_publisher
+[7.749s] 
+[7.750s] Installed /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher
+[7.751s] running install_data
+[7.968s] Invoked command in '/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher' returned '0': PYTHONPATH=/home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/prefix_override:/home/ubuntu/workspace/src/robots/topics/raspicam/install/turtlebot_image_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/workspace/src/robots/topics/raspicam/build/turtlebot_image_publisher/build --no-deps install_data
